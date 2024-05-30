@@ -13,6 +13,7 @@ Este proyecto es una aplicación para la gestión de pedidos y productos. Permit
   - [Autenticación](#autenticación)
   - [Productos](#productos)
   - [Pedidos](#pedidos)
+- [Pruebas](#pruebas)
 - [Seed Products](#seed-products)
 - [Licencia](#licencia)
 
@@ -83,6 +84,13 @@ El servidor estará ejecutándose en http://localhost:3000.
 - `POST /api/order`: Crear un nuevo pedido.
 - `PUT /api/order/:id/status`: Actualizar el estado de un pedido.
 - `GET /api/orders`: Obtener todos los pedidos.
+
+### Pruebas
+
+Para ejecutar todas las pruebas:
+```bash
+npm test
+```
 
 ### Seed Products
 
