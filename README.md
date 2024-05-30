@@ -59,6 +59,7 @@ Este proyecto es una aplicación para la gestión de pedidos y productos. Permit
     PORT=3000
     ```
     Asegúrate de reemplazar `your_mongodb_uri` con tu URI de MongoDB.
+    - Debe ser algo asi: `mongodb://localhost:27017/nueva-base-de-datos`
 
 ### Ejecución del Proyecto
 
